@@ -1,1 +1,1 @@
-# connector
+# Demo MCP Connector
