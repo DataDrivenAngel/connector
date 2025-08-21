@@ -11,7 +11,7 @@ mcp = FastMCP("Excella Demo MCP Server")
 
 @mcp.resource("insights://static")
 def excella_insights() -> str:
-    """Return recent insights from Excella"""
+    """Returns a list of recent insights from Excella's blog"""
 
     insights = [
     {
@@ -33,6 +33,3 @@ def excella_insights() -> str:
 ]
 
     return insights
-
-
-
